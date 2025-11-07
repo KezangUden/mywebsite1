@@ -1,0 +1,158 @@
+html {
+   font-family:  'Courier New', Courier, monospace;
+}
+body
+{
+overflow-x:hidden;
+width:100%;
+font: 15px "Poppins", sans-serif;
+background:#eee;
+min-height:550px;
+background-attachment:fixed;
+}
+.bg
+{
+min-height:540px;
+}
+.bg1
+{
+background:url(../image/bg.jpg);
+/*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=010101&c2=af2718&gt=r&gd=dbb
+*/
+min-height:535px;
+}
+
+@font-face {
+   font-family: 'typo';
+    src: url('../fonts/typo.ttf');
+	}
+
+@font-face {
+   font-family: 'gothic';
+    src: url('../fonts/gothics.ttf');
+	}
+
+.panel{
+border-color:#eee;
+margin:40px;
+padding:20px;
+font-size: 15px;
+}
+
+.title
+{
+font-family:'typo';
+}
+.header
+{
+height:70px;
+}
+.logo
+{
+font-family: 'typo';
+font-size:50px;
+color: black;
+margin:15px;
+}
+
+.title1{
+font-size: 16px;
+color: black;
+}
+.title2{
+font-size:20px;
+}
+
+
+.sub1
+{
+width:90px;
+color:#202020;
+background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(209,209,215,1) 35%, rgba(0,212,255,1) 100%);
+font-size:15px;
+height:35px;
+margin:20px;
+padding:10px;
+width:100px;
+}
+ .sub1:hover{
+    background-color: #323232;
+ }
+.sub
+{
+width:100%;
+font-size:20px;
+background-color: aqua;
+padding:2px;
+margin-top:15px;
+margin-right:20px;
+}
+.sub:hover
+{
+background-color: aquamarine;
+}
+
+.footer
+{
+font-size:15px;
+text-align:center;
+border-top:1px solid;
+border-color:#323232;
+background: rgb(182,87,49);
+background: linear-gradient(93deg, rgba(182,87,49,1) 0%, rgba(39,80,142,1) 21%, rgba(208,202,178,1) 56.00000000000001%, rgba(225,129,24,1) 76%, rgba(48,14,20,1) 100%);
+}
+.footer a
+{
+margin:25px;
+color: black;
+text-decoration:none;
+font: 15px "Century Gothic", "Times Roman", sans-serif;
+
+}
+.footer a:hover
+{
+text-decoration:none;
+color: white;
+border-top:2px solid;
+border-color: lightcoral;
+
+}
+
+.box
+{
+padding:9px;
+}
+hr{
+color:#000000;
+}
+.top
+{
+margin-top:20px;
+}
+.log1
+{
+font: 15px 'Ubuntu', sans-serif;
+color: black;
+margin-left:10px;
+}
+
+.log
+{
+margin:10px;
+margin-right:60px;
+margin-left:5px;
+color: black;
+text-decoration:none;
+font-size:20px;
+font-size:15px;
+}
+.log:hover
+{
+color:#9acd32;
+border-top:2px solid;
+border-color:orange;
+text-decoration:none;
+}
